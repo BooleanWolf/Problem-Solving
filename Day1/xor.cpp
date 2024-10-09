@@ -1,7 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-
 long long zero_to_x_xor(long long x) {
   long long ans = 0;
   while (x >= 0 and x % 4 != 3) {
